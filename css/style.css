@@ -147,15 +147,22 @@ a:visited {
      padding: 103px 0 91px 78px;
      block-size: cover;
      background-repeat: no-repeat;
+     position: relative;
  }
 .main {
-
   margin-bottom: 100px;
     padding: 103px 0 91px 78px;
     background-image: url("../img/low-angle-photo-of-balconies-2462015\ 1\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: absolute;
+}
+/* .swiper-wrapper {
+    position: relative;
+} */
+.text-container {
+    position: absolute;
+    z-index: 3;
 }
 .main h1 {
    width: 55%;
@@ -849,6 +856,13 @@ height: 60px;
     }
     .swiper-container {
         width: 768px;
+        height: 768px;
+    }
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+        padding: 190px 2px 110px 45px;
+        background-size: cover;
     }
     .container {
         padding: 0;
@@ -856,6 +870,8 @@ height: 60px;
     .main h1 {
         width: 100%;
         font-size: 60px;
+        letter-spacing: 0;
+        line-height: 73px;
     }
     .main p {
         width: 90%;
@@ -1020,6 +1036,12 @@ height: 60px;
         background-size: cover;
         margin-bottom: 39px;
     }
+    .swiper-slide {
+        padding: 30px 10px 40px 22px;
+    }
+    .text-container{
+        width: 247px;
+    }
     .main h1 {
         font-size: 20px;
         line-height: 24px;
@@ -1027,7 +1049,7 @@ height: 60px;
 
     }
     .main p {
-        margin-right: 0;
+        margin: 6px 0  0 0;
         font-weight: 500;
         font-size: 12px;
         line-height: 15px;
